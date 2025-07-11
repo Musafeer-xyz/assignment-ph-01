@@ -61,6 +61,15 @@ ul li {
     border-radius: 10px;
     border-color: none;
     cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #4E47FF;
+    border-color: #4E47FF;
 }
 
 
@@ -101,8 +110,6 @@ ul li {
     justify-content: center;
     gap: 158px;
 }
-
-.feedback-stat h1 {}
 
 .feedback {
     margin: auto 141px;
@@ -269,6 +276,7 @@ ul li {
     height: 35px;
     width: 255px;
     margin-top: 10px;
+    align-items: center;
 }
 
 a {
@@ -277,4 +285,45 @@ a {
 
 textarea {
     resize: none;
+}
+
+/* footer  */
+
+.foot-main {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title {
+    font-weight: 800;
+    font-size: 70px;
+    color: #4E47FF;
+    margin: 0px;
+}
+
+.footer {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.ft-main p {
+    margin: 10px auto;
+    font-size: 10px;
+    color: gray;
+    width: 300px;
+}
+
+.link a {
+    color: rgb(151, 146, 146);
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.link a:hover {
+    color: rgb(40, 58, 161);
+    transition: 0.3s;
+    font-weight: 500;
 }
