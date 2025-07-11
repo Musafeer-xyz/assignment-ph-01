@@ -112,7 +112,7 @@ ul li {
 }
 
 .feedback {
-    margin: auto 141px;
+    margin: auto 400px;
     text-align: center;
     background-color: #e5e7ff;
     padding: 20px 30px;
@@ -126,8 +126,8 @@ ul li {
     margin-bottom: 50px;
 }
 
-.card-nain {
-    width: 600px;
+.card-main {
+    width: 800px;
     margin: 0px 50px;
 }
 
@@ -196,6 +196,8 @@ ul li {
     background-color: rgb(164, 196, 238);
     transition: 0.5s;
 }
+
+/* Ready to Focus better */
 
 .foc-main {
     display: flex;
@@ -276,6 +278,8 @@ ul li {
     height: 35px;
     width: 255px;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -317,13 +321,13 @@ textarea {
 }
 
 .link a {
-    color: rgb(151, 146, 146);
+    color: #979292;
     font-size: 12px;
     margin-left: 20px;
 }
 
 .link a:hover {
-    color: rgb(40, 58, 161);
+    color: #283aa1;
     transition: 0.3s;
     font-weight: 500;
 }
