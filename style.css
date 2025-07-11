@@ -63,6 +63,7 @@ ul li {
 }
 
 .action{
+    margin: 127px 141px;
     display: flex;
     justify-content: center;
     gap: 220px;
@@ -71,6 +72,8 @@ ul li {
 
 .action img{
     border-radius: 48px;
+    width: 403px;
+    height: 328px;
 }
 
 .act-title{
